@@ -1,0 +1,29 @@
+table {
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+table > thead {
+    background: #dfe3ee;
+}
+
+table, td, tr, th {
+    border: 1px solid #000000;
+    /* join double line to one */
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+.result {
+    text-align: left;
+    font-weight: normal;
+}

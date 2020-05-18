@@ -1,0 +1,119 @@
+body {
+    font-family: "Helvetica", sans-serif;  
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    background: #F0F1F5;  
+}
+
+/* navigation */
+header:first-child, nav {
+    display: inline-block;
+}
+
+ /* p Hercules  */
+header section:nth-child(1) p {
+    display: inline-block;
+    color: #f9690e; 
+    width: 500px;
+}
+  
+/* image Hercules */
+header section:nth-child(1) i {
+    font-size: 30px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+nav ul a:not(:last-child) {
+    padding-right: 20px;
+}
+
+nav ul a {
+    display: inline-block;
+    text-decoration: none;
+    color: #f9690e;  
+}
+
+/* image */
+header section:nth-child(2) {
+    background: url("Images/picture.jpg")
+    no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    padding-top: 250px;  
+}
+
+/* image -> text */
+header section:nth-child(2) p{
+    width: 65%;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+/* image -> text > span*/
+header section:nth-child(2) span {
+    color: #f9690e;
+}
+
+/* image -> button */
+header section:nth-child(2) button {
+    margin-top: 50px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #f9690e;
+    border: none;
+}
+
+/* image -> button */
+header section:nth-child(2) button:hover {
+    background: white;
+    color: #f9690e;
+    cursor: pointer;
+}
+
+/* articles */
+main article {
+    width: 235px;   
+    display: inline-block;
+    padding: 30px 60px;
+    background: #f9690e;
+    color: white;
+}
+  
+main article h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+  
+footer {
+    margin: 0;
+    padding: 30px 0 10px 0; 
+}
+
+footer p {
+    width:630px;
+    display: inline-block;
+}
+  
+footer ul {
+    width: 400px;
+    display: inline-block;
+    text-align: right;
+}
+
+footer a {
+    padding-left: 10px;
+}
+  
+footer a i {
+    color: black;
+}

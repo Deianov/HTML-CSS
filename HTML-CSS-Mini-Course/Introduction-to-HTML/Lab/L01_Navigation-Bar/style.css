@@ -1,0 +1,35 @@
+body {
+    /* remove default body margin */
+    margin: 0;
+    background:cadetblue;
+    font-family: sans-serif;
+}
+
+nav {
+    /* navigation background-color */
+    background: #234465;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    /* horizontal navigation */
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    /* navigation text */
+    padding: 10px 20px;
+    /* text underline */
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
